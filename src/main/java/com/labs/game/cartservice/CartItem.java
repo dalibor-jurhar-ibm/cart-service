@@ -19,9 +19,6 @@ public class CartItem {
 	private String customer;
 	@Column
 	private String product;
-	public CartItem() {
-		
-	}
 	public CartItem(int id, String customer, String product, int quantity) {
 		this.id = id;
 		this.customer = customer;

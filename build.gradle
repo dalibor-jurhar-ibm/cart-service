@@ -48,23 +48,38 @@ dependencyManagement {
 }
 
 
-
 dependencies {
-	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
-	implementation('org.springframework.boot:spring-boot-starter-web')
-	implementation('org.hsqldb:hsqldb')
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.hsqldb:hsqldb')
+
 	compileOnly('org.projectlombok:lombok')
 	
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('org.springframework.cloud:spring-cloud-starter-contract-verifier')
 
 	testCompile 'org.codehaus.groovy:groovy-all:2.4.6'
-	// example with adding Spock core and Spock Spring
 	testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
 	testCompile 'org.spockframework:spock-spring:1.0-groovy-2.4'
-	testCompile 'org.springframework.cloud:spring-cloud-starter-contract-verifier'
+	// testCompile 'org.springframework.cloud:spring-cloud-starter-contract-verifier'
 }
 
+
+//dependencies {
+//	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+//	implementation('org.springframework.boot:spring-boot-starter-web')
+//	implementation('org.hsqldb:hsqldb')
+//	compileOnly('org.projectlombok:lombok')
+//	
+//	testImplementation('org.springframework.boot:spring-boot-starter-test')
+//	testImplementation('org.springframework.cloud:spring-cloud-starter-contract-verifier')
+//
+//	testCompile 'org.codehaus.groovy:groovy-all:2.4.6'
+//	// example with adding Spock core and Spock Spring
+//	testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+//	testCompile 'org.spockframework:spock-spring:1.0-groovy-2.4'
+//	// testCompile 'org.springframework.cloud:spring-cloud-starter-contract-verifier'
+//}
 
 
 
