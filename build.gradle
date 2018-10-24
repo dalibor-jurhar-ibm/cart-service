@@ -4,7 +4,9 @@ buildscript {
     	springCloudVersion = '2.0.1.RELEASE'
 	}
 	repositories {
-		mavenCentral()
+	    maven {
+    	    url "http://repo.maven.apache.org/maven2/"
+    	}
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
