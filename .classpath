@@ -3,6 +3,8 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/generatedContract"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry kind="lib" path="/Users/dj/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.22/e555426550f54284fefb09065f2123a1d9be0b73/lombok-1.16.22.jar" sourcepath="/Users/dj/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.22/38bc39b0677b208aeacbdc2d30e8499663687373/lombok-1.16.22-sources.jar">
 		<attributes>
