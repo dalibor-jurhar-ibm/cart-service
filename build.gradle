@@ -30,7 +30,7 @@ repositories {
 
 contracts {
 	testMode = 'MockMvc'
-	baseClassForTests = 'com.labs.game.cartservice'
+	baseClassForTests = 'com.labs.game.cartservice.ContractVerifierBase'
 	generatedTestSourcesDir = project.file('src/generatedContract')
 }
 

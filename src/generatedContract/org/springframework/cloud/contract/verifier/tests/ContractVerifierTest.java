@@ -2,7 +2,7 @@ package org.springframework.cloud.contract.verifier.tests;
 
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
-import com.labs.game.cartservice;
+import com.labs.game.cartservice.ContractVerifierBase;
 import io.restassured.module.mockmvc.specification.MockMvcRequestSpecification;
 import io.restassured.response.ResponseOptions;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import static com.toomuchcoding.jsonassert.JsonAssertion.assertThatJson;
 import static io.restassured.module.mockmvc.RestAssuredMockMvc.*;
 import static org.springframework.cloud.contract.verifier.assertion.SpringCloudContractAssertions.assertThat;
 
-public class ContractVerifierTest extends cartservice {
+public class ContractVerifierTest extends ContractVerifierBase {
 
 	@Test
 	public void validate_cart_service_111() throws Exception {

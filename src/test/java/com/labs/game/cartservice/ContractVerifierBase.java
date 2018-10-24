@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = MOCK)
+@SpringBootTest(webEnvironment = MOCK, classes = CartServiceApplication.class)
 @DirtiesContext
 @AutoConfigureMessageVerifier
 public abstract class ContractVerifierBase {
